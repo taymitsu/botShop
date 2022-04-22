@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		7A9F3AC52813401700DFB169 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9F3AC42813401700DFB169 /* AppDelegate.swift */; };
 		7A9F3AC72813401700DFB169 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9F3AC62813401700DFB169 /* SceneDelegate.swift */; };
-		7A9F3AC92813401700DFB169 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9F3AC82813401700DFB169 /* ViewController.swift */; };
-		7A9F3ACC2813401700DFB169 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A9F3ACA2813401700DFB169 /* Main.storyboard */; };
+		7A9F3AC92813401700DFB169 /* NewOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9F3AC82813401700DFB169 /* NewOrderViewController.swift */; };
 		7A9F3ACE2813401700DFB169 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A9F3ACD2813401700DFB169 /* Assets.xcassets */; };
 		7A9F3AD12813401700DFB169 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A9F3ACF2813401700DFB169 /* LaunchScreen.storyboard */; };
 		7A9F3ADC2813401800DFB169 /* BotShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9F3ADB2813401800DFB169 /* BotShopTests.swift */; };
 		7A9F3AE62813401800DFB169 /* BotShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9F3AE52813401800DFB169 /* BotShopUITests.swift */; };
 		7A9F3AE82813401800DFB169 /* BotShopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9F3AE72813401800DFB169 /* BotShopUITestsLaunchTests.swift */; };
+		7A9F3AF52813426F00DFB169 /* PastOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9F3AF42813426F00DFB169 /* PastOrderViewController.swift */; };
+		7A9F3AF72813429800DFB169 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9F3AF62813429800DFB169 /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +40,7 @@
 		7A9F3AC12813401700DFB169 /* BotShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BotShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A9F3AC42813401700DFB169 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A9F3AC62813401700DFB169 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7A9F3AC82813401700DFB169 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7A9F3ACB2813401700DFB169 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A9F3AC82813401700DFB169 /* NewOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewOrderViewController.swift; sourceTree = "<group>"; };
 		7A9F3ACD2813401700DFB169 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A9F3AD02813401700DFB169 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A9F3AD22813401700DFB169 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +49,8 @@
 		7A9F3AE12813401800DFB169 /* BotShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BotShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A9F3AE52813401800DFB169 /* BotShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotShopUITests.swift; sourceTree = "<group>"; };
 		7A9F3AE72813401800DFB169 /* BotShopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotShopUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7A9F3AF42813426F00DFB169 /* PastOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastOrderViewController.swift; sourceTree = "<group>"; };
+		7A9F3AF62813429800DFB169 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +103,9 @@
 			children = (
 				7A9F3AC42813401700DFB169 /* AppDelegate.swift */,
 				7A9F3AC62813401700DFB169 /* SceneDelegate.swift */,
-				7A9F3AC82813401700DFB169 /* ViewController.swift */,
-				7A9F3ACA2813401700DFB169 /* Main.storyboard */,
+				7A9F3AC82813401700DFB169 /* NewOrderViewController.swift */,
+				7A9F3AF42813426F00DFB169 /* PastOrderViewController.swift */,
+				7A9F3AF62813429800DFB169 /* TabBarController.swift */,
 				7A9F3ACD2813401700DFB169 /* Assets.xcassets */,
 				7A9F3ACF2813401700DFB169 /* LaunchScreen.storyboard */,
 				7A9F3AD22813401700DFB169 /* Info.plist */,
@@ -233,7 +236,6 @@
 			files = (
 				7A9F3AD12813401700DFB169 /* LaunchScreen.storyboard in Resources */,
 				7A9F3ACE2813401700DFB169 /* Assets.xcassets in Resources */,
-				7A9F3ACC2813401700DFB169 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +260,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A9F3AC92813401700DFB169 /* ViewController.swift in Sources */,
+				7A9F3AC92813401700DFB169 /* NewOrderViewController.swift in Sources */,
 				7A9F3AC52813401700DFB169 /* AppDelegate.swift in Sources */,
 				7A9F3AC72813401700DFB169 /* SceneDelegate.swift in Sources */,
+				7A9F3AF72813429800DFB169 /* TabBarController.swift in Sources */,
+				7A9F3AF52813426F00DFB169 /* PastOrderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +301,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7A9F3ACA2813401700DFB169 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7A9F3ACB2813401700DFB169 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7A9F3ACF2813401700DFB169 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,7 +438,6 @@
 				INFOPLIST_FILE = BotShop/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +465,6 @@
 				INFOPLIST_FILE = BotShop/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
