@@ -19,6 +19,9 @@
 		7A9F3AF72813429800DFB169 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9F3AF62813429800DFB169 /* TabBarController.swift */; };
 		7A9F3AF92813467800DFB169 /* NewItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9F3AF82813467800DFB169 /* NewItemCell.swift */; };
 		7A9F3AFD2813486E00DFB169 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9F3AFC2813486E00DFB169 /* Item.swift */; };
+		7A9F3BB7282B5B0F00DFB169 /* PastOrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9F3BB6282B5B0F00DFB169 /* PastOrderCell.swift */; };
+		7A9F3BB9282B5CD600DFB169 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9F3BB8282B5CD600DFB169 /* Order.swift */; };
+		7A9F3BBB282B5E1600DFB169 /* OrderList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9F3BBA282B5E1600DFB169 /* OrderList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,9 @@
 		7A9F3AF62813429800DFB169 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		7A9F3AF82813467800DFB169 /* NewItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemCell.swift; sourceTree = "<group>"; };
 		7A9F3AFC2813486E00DFB169 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		7A9F3BB6282B5B0F00DFB169 /* PastOrderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastOrderCell.swift; sourceTree = "<group>"; };
+		7A9F3BB8282B5CD600DFB169 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		7A9F3BBA282B5E1600DFB169 /* OrderList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,8 +115,11 @@
 				7A9F3AC62813401700DFB169 /* SceneDelegate.swift */,
 				7A9F3AC82813401700DFB169 /* NewOrderViewController.swift */,
 				7A9F3AF42813426F00DFB169 /* PastOrderViewController.swift */,
+				7A9F3BBA282B5E1600DFB169 /* OrderList.swift */,
 				7A9F3AF62813429800DFB169 /* TabBarController.swift */,
 				7A9F3AF82813467800DFB169 /* NewItemCell.swift */,
+				7A9F3BB6282B5B0F00DFB169 /* PastOrderCell.swift */,
+				7A9F3BB8282B5CD600DFB169 /* Order.swift */,
 				7A9F3ACD2813401700DFB169 /* Assets.xcassets */,
 				7A9F3ACF2813401700DFB169 /* LaunchScreen.storyboard */,
 				7A9F3AD22813401700DFB169 /* Info.plist */,
@@ -268,6 +277,9 @@
 			files = (
 				7A9F3AC92813401700DFB169 /* NewOrderViewController.swift in Sources */,
 				7A9F3AC52813401700DFB169 /* AppDelegate.swift in Sources */,
+				7A9F3BBB282B5E1600DFB169 /* OrderList.swift in Sources */,
+				7A9F3BB7282B5B0F00DFB169 /* PastOrderCell.swift in Sources */,
+				7A9F3BB9282B5CD600DFB169 /* Order.swift in Sources */,
 				7A9F3AC72813401700DFB169 /* SceneDelegate.swift in Sources */,
 				7A9F3AF72813429800DFB169 /* TabBarController.swift in Sources */,
 				7A9F3AFD2813486E00DFB169 /* Item.swift in Sources */,
