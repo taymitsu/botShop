@@ -14,9 +14,8 @@ class TabBarController: UITabBarController, UITabBarControllerDelegate{
     var secondItemImageView: UIImageView!
 
     override func viewDidLoad() {
-        self.delegate = self
         super.viewDidLoad()
-
+        self.delegate = self
         setupViewControllers()
         setupTabBarIcons()
     }
