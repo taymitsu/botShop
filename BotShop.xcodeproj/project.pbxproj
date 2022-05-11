@@ -17,6 +17,8 @@
 		7A9F3AE82813401800DFB169 /* BotShopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9F3AE72813401800DFB169 /* BotShopUITestsLaunchTests.swift */; };
 		7A9F3AF52813426F00DFB169 /* PastOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9F3AF42813426F00DFB169 /* PastOrderViewController.swift */; };
 		7A9F3AF72813429800DFB169 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9F3AF62813429800DFB169 /* TabBarController.swift */; };
+		7A9F3AF92813467800DFB169 /* NewItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9F3AF82813467800DFB169 /* NewItemCell.swift */; };
+		7A9F3AFD2813486E00DFB169 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9F3AFC2813486E00DFB169 /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		7A9F3AE72813401800DFB169 /* BotShopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotShopUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7A9F3AF42813426F00DFB169 /* PastOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastOrderViewController.swift; sourceTree = "<group>"; };
 		7A9F3AF62813429800DFB169 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		7A9F3AF82813467800DFB169 /* NewItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemCell.swift; sourceTree = "<group>"; };
+		7A9F3AFC2813486E00DFB169 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,9 +110,11 @@
 				7A9F3AC82813401700DFB169 /* NewOrderViewController.swift */,
 				7A9F3AF42813426F00DFB169 /* PastOrderViewController.swift */,
 				7A9F3AF62813429800DFB169 /* TabBarController.swift */,
+				7A9F3AF82813467800DFB169 /* NewItemCell.swift */,
 				7A9F3ACD2813401700DFB169 /* Assets.xcassets */,
 				7A9F3ACF2813401700DFB169 /* LaunchScreen.storyboard */,
 				7A9F3AD22813401700DFB169 /* Info.plist */,
+				7A9F3AFC2813486E00DFB169 /* Item.swift */,
 			);
 			path = BotShop;
 			sourceTree = "<group>";
@@ -264,7 +270,9 @@
 				7A9F3AC52813401700DFB169 /* AppDelegate.swift in Sources */,
 				7A9F3AC72813401700DFB169 /* SceneDelegate.swift in Sources */,
 				7A9F3AF72813429800DFB169 /* TabBarController.swift in Sources */,
+				7A9F3AFD2813486E00DFB169 /* Item.swift in Sources */,
 				7A9F3AF52813426F00DFB169 /* PastOrderViewController.swift in Sources */,
+				7A9F3AF92813467800DFB169 /* NewItemCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
